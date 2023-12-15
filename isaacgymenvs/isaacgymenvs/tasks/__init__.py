@@ -70,6 +70,9 @@ from .shadow_hand_swing_cup import ShadowHandSwingCup
 from .shadow_hand_switch import ShadowHandSwitch
 from .shadow_hand_two_catch_underarm import ShadowHandTwoCatchUnderarm
 
+#rui - custom
+from .bolt6 import Bolt6
+
 # Mappings from strings to environments
 isaacgym_task_map = {
     "AllegroHand": AllegroHand,
@@ -79,6 +82,7 @@ isaacgym_task_map = {
     "Anymal": Anymal,
     "AnymalTerrain": AnymalTerrain,
     "BallBalance": BallBalance,
+    
     "Cartpole": Cartpole,
     "FactoryTaskGears": FactoryTaskGears,
     "FactoryTaskInsertion": FactoryTaskInsertion,
@@ -116,5 +120,8 @@ isaacgym_task_map = {
     "ShadowHandSwingCup": ShadowHandSwingCup,
     "ShadowHandSwitch": ShadowHandSwitch,
     "ShadowHandTwoCatchUnderarm": ShadowHandTwoCatchUnderarm,
+    
+    #rui - custom
+    "Bolt6": Bolt6,
 }
 

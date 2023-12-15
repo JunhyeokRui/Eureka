@@ -156,7 +156,6 @@ class Bolt6(VecTask):
         if self.randomize:
             self.apply_randomizations(self.randomization_params)
 
-
     def _create_ground_plane(self):
         plane_params = gymapi.PlaneParams()
         plane_params.normal = gymapi.Vec3(0.0, 0.0, 1.0)
